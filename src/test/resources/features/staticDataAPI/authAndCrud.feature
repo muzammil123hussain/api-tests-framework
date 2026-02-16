@@ -30,7 +30,7 @@ Feature: API Authentication and CRUD Operations Testing
     And I check the 'login' response is correct
     And I save access token for further use
     Given A 'name' param with value: 'Muzammil'
-    And A 'email' param with value: 'muzammil21@gmail.com'
+    And A 'email' param with value: 'muzammil22@gmail.com'
     And A 'phone' param with value: '1234567890'
     And A 'address' param with value: 'some value'
     And I post 'add-agency' data with token
@@ -43,4 +43,4 @@ Feature: API Authentication and CRUD Operations Testing
       | name    | Muzammil             |
       | address | some value           |
       | phone   | 1234567890           |
-      | email   | muzammil1@gmail.com |
+      | email   | muzammil22@gmail.com |
